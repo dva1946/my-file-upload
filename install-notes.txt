@@ -12,7 +12,7 @@ Reading: https://wpappsforthat.com/index.php/diy-by-dave/
 Reading: https://wpappsforthat.com/index.php/lesson-one/ - Accordion = App Name = My File Download
 
 This is a the basic PHP script with a bit of HTML. I am not here to teach 101 Anything like:
-PHP, MySQL, HTML or CSS. However included some styling. Separate file(s) for CSS will be included, 
+PHP, MySQL, HTML or CSS. However, included some styling. Separate file(s) for CSS will be included, 
 and some Custom CSS that can (likely) be included in your theme.
 
 If you need to learn about PHP, Database, SQL, CSS or HTML your best should GOOGLE. 

@@ -4,6 +4,10 @@ last_update_date: 2022-09-29
 author: Dave Van Abel
 license: GNU General Public License version 3 https://opensource.org/licenses/GPL-3.0
 
+NOTICE 09-29-22:
+  Some of this document may be outdated, as I have not update it for two years+.
+  I will try to updaste this file or another file as needed and time permits.
+
 Reading: https://wpappsforthat.com/index.php/diy-by-dave/
 Reading: https://wpappsforthat.com/index.php/lesson-one/ - Accordion = App Name = My File Download
 

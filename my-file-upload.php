@@ -9,13 +9,14 @@ business_use: File Upload
 author: Dave Van Abel
 dev_site: gvaz.org
 create_date: 2020-08-20
-last_update_date: 2020-08-25
+last_update_date: 2021-10-01-25
 base_note: An App for file uploads
 status: Initally complete pending some reviews, if needed. Good WpAppsForThat
 license: GNU General Public License version 3 https://opensource.org/licenses/GPL-3.0
 */
 /* 
  * ORIG SOURCE FILE: https://stackoverflow.com/questions/35542640/using-php-for-file-upload-in-wordpress
+ * 01-01-22 Changed some words.
  * 08-27-20 Tested on WpAppsForThat.Com
  * 08-25-20 Moved two sets of info functions.php
 */
@@ -43,7 +44,7 @@ list($user_dirname, $file) = user_waiver_file($user_id);	// Get Waiver File Info
             	<td>
                     <?php
                         if ($file) {                     
-                            echo "<a href=\"/wp-content/uploads/$user_id/$file\">Your Covid-19 Wavier on file in the Wood Shop</a>";
+                            echo "<a href=\"/wp-content/uploads/$user_id/$file\">Your Covid-19 Wavier on file in the House</a>";
                         } else {
                             echo "No file on record";
                         }

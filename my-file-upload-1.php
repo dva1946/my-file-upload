@@ -9,7 +9,7 @@ business_use: File Upload
 author: Dave Van Abel
 dev_site: gvaz.org
 create_date: 2020-08-21
-last_update_date: 202-08-27
+last_update_date: 2022-09-30
 base_note: An App for file uploads
 status: Initally complete pending some reviews if needed. Good WpAppsForThat
 license: GNU General Public License version 3
@@ -20,6 +20,7 @@ global $current_file;
 global $user_dirname;
 global $err_msg;
 $current_file = NULL;
+$path = ""; // 09-30-22 generated error
 
 /* Standard POST */
 if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "submit") {

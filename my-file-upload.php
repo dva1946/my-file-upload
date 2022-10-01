@@ -24,6 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {die( '-1' );}    // 1st line of php ensures scrip
 get_header();   //Load the theme’s header
 $user_id = get_current_user_id();
 access_denied($user_id);	//Check if logged in user
+$file = ""; // 09-30-22 undefined error
 list($user_dirname, $file) = user_waiver_file($user_id);	// Get Waiver File Information
 
 ?> 

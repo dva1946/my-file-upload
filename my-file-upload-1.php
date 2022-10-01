@@ -9,9 +9,9 @@ business_use: File Upload
 author: Dave Van Abel
 dev_site: gvaz.org
 create_date: 2020-08-21
-last_update_date: 2022-09-30
+last_update_date: 2022-10-01
 base_note: An App for file uploads
-status: Initally complete pending some reviews if needed. Good WpAppsForThat
+status: Initially complete pending some reviews if needed. Good WpAppsForThat
 license: GNU General Public License version 3
 */
 if ( ! defined( 'ABSPATH' ) ) {die( '-1' );}    // 1st line of php ensures script called from the website
